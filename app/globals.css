@@ -1,26 +1,257 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  font-family: "Inter", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* TEAM SECTION CSS */
+
+.teamWrapper {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #fdfdfd, #f2f2f2);
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.teamTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.teamGrid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center;
+}
+
+.card2 {
+  background: #fff;
+  border-radius: 12px;
+  padding: 0 0 20px 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card2:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.photoWrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.photo {
+  object-position: top;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #333;
+}
+
+.role {
+  font-size: 1rem;
+  color: #0070f3;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .teamTitle {
+    font-size: 1.8rem;
+  }
+
+  .photoWrapper {
+    height: 450px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Mission and Vissopn CSS */
+
+.practiceHeading {
+  font-family: "Segoe UI", sans-serif;
+}
+.vm-section {
+  padding: 60px 20px;
+  /* background: linear-gradient(to right, #f5f7fa, #c3cfe2); */
+  font-family: "Segoe UI", sans-serif;
+}
+
+.vm-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.vm-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.vm-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.vm-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  transition: transform 0.3s ease;
+}
+
+.vm-card:hover {
+  transform: translateY(-5px);
+}
+
+.vm-card h3 {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.vm-card p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.vm-vision {
+  border-left: 6px solid #3498db;
+}
+
+.vm-mission {
+  border-left: 6px solid #27ae60;
+}
+
+/* Vission Mission Split CSS */
+
+/* .vm-split-section {
+  background: #f8f9fa;
+  padding: 80px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.vm-split-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.vm-block {
+  padding: 40px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.vm-block:hover {
+  transform: translateY(-5px);
+}
+
+.vm-block h2 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  border-left: 6px solid #3498db;
+  padding-left: 15px;
+}
+
+.vm-vision h2 {
+  border-color: #2980b9;
+}
+
+.vm-mission h2 {
+  border-color: #27ae60;
+}
+
+.vm-block p {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .vm-split-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .vm-block {
+    width: 48%;
+  }
+}
+*/
+
+/* MissionVission Statements css */
+
+.vm-statement {
+  background: linear-gradient(to bottom, #ffffff, #f4f6f9);
+  padding: 100px 20px;
+  font-family: "Merriweather", serif;
+  color: #2c3e50;
+}
+
+.vm-wrapper {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.vm-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.vm-heading::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #3498db;
+  margin-top: 10px;
+}
+
+.vm-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 60px;
+  color: #555;
+}
+
+.vm-divider {
+  height: 1px;
+  background-color: #ccc;
+  margin: 40px 0;
 }
