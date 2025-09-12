@@ -18,7 +18,7 @@ export const sendEmail = async (formData) => {
   try {
     const result = await transporter.sendMail({
       from: `${formData?.name} <${formData?.email}>`,
-      to: "ekhlas.hclawyer@gmail.com",
+      to: "ekhlas.hclawyer@gmail.com,bellalhossen1978@gmail.com",
       subject: `${formData?.subject}`,
       text: `Consult With You...`,
       html: `<div style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px;">

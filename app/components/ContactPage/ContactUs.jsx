@@ -44,13 +44,17 @@ const ContactUs = () => {
     try {
       console.log("Form Submitted:", data);
       const result = await sendEmail(data);
-      console.log("Email Response is:", result);
-      reset();
+      if (result) {
+        setSendEmailLoading(false);
+        console.log("Email Response is:", result);
+        reset();
+        toast("Your Email is Successfully Sent");
+      }
     } catch (error) {
-      console.log("Email Error is:", error);
-    } finally {
       setSendEmailLoading(false);
-      toast("Your Email is Successfully Sent");
+      console.log("Fail to Send Email:Error is:", error);
+      reset();
+      toast("Failed to send Email..!!");
     }
   };
 
