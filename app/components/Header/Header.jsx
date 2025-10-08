@@ -1,28 +1,30 @@
 import Link from "next/link";
 import Image from "next/image";
 import comLogo from "@/public/images/logo.jpeg"
+import CustomLink from "./CustomLink";
 
 const Header = () => {
   const navItems = (
     <>
       <li>
-        <Link href="/">Home</Link>
+        {/* <Link href="/">Home</Link> */}
+        <CustomLink href="/">Home</CustomLink>
       </li>
 
       <li>
-        <Link href="/about">About Us</Link>
+        <CustomLink href="/about">About Us</CustomLink>
       </li>
       <li>
-        <Link href="/services">Services</Link>
+        <CustomLink href="/services">Services</CustomLink>
       </li>
       <li>
-        <Link href="/team">Team</Link>
+        <CustomLink href="/team">Team</CustomLink>
       </li>
       <li>
-        <Link href="/clients">Clients</Link>
+        <CustomLink href="/clients">Clients</CustomLink>
       </li>
       <li>
-        <Link href="/contact">Contact Us</Link>
+        <CustomLink href="/contact">Contact Us</CustomLink>
       </li>
     </>
   );

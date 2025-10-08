@@ -6,7 +6,7 @@ const TeamMembers = () => {
   const teamMembers = getAllTeamMembers();
   return (
     <div className="my-56 ">
-      <SectionTitle heading="MEET OUR TEAM" />
+      <SectionTitle heading="Meet Our Team" />
       <div className="flex flex-wrap justify-center items-center gap-10 mt-20">
         {teamMembers.map((member) => (
           <MemberCard key={member?.id} member={member} />

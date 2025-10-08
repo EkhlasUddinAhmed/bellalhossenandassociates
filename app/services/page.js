@@ -1,8 +1,13 @@
+import AccountingAccordion from "../components/ServiceAccordion/AccountingAccordion";
+import AuditAccordion from "../components/ServiceAccordion/AuditAccordion";
 import IncomeTaxServiceAccordion from "../components/ServiceAccordion/IncomeTaxServiceAccordion";
 import LoanServiceAccordion from "../components/ServiceAccordion/LoanServiceAccordion";
+import ManagementAccordion from "../components/ServiceAccordion/ManagementAccordion";
 import OtherServiceAccordion from "../components/ServiceAccordion/OtherServiceAccordion";
+import ProjectProfileAccordion from "../components/ServiceAccordion/ProjectProfileAccordion";
 import RJSCServiceAccordion from "../components/ServiceAccordion/RJSCServiceAccordion";
 import VatServiceAccordion from "../components/ServiceAccordion/VatServiceAccordion";
+import VATTrainingAccordion from "../components/ServiceAccordion/VATTrainingAccordion";
 
 export default function ServicesPage() {
   const services = [
@@ -55,6 +60,63 @@ export default function ServicesPage() {
           <LoanServiceAccordion />
         </div>
 
+        
+        {/* Accounting */}
+        <input
+          type="radio"
+          name="my_tabs_3"
+          className="tab"
+          aria-label="ACCOUNTING"
+        />
+        <div className="tab-content bg-base-100 border-base-300 p-6">
+          <AccountingAccordion />
+        </div>
+
+        {/* Audit */}
+        <input
+          type="radio"
+          name="my_tabs_3"
+          className="tab"
+          aria-label="AUDIT"
+        />
+        <div className="tab-content bg-base-100 border-base-300 p-6">
+          <AuditAccordion />
+        </div>
+
+        {/* Management Consultancy */}
+        <input
+          type="radio"
+          name="my_tabs_3"
+          className="tab"
+          aria-label="MANAGEMENT CONSULTANCY"
+        />
+        <div className="tab-content bg-base-100 border-base-300 p-6">
+          <ManagementAccordion />
+        </div>
+
+        {/* Project Profile */}
+        <input
+          type="radio"
+          name="my_tabs_3"
+          className="tab"
+          aria-label="PROJECT PROFILE"
+        />
+        <div className="tab-content bg-base-100 border-base-300 p-6">
+          <ProjectProfileAccordion />
+        </div>
+
+        {/* Hands On VAT Training... */}
+        <input
+          type="radio"
+          name="my_tabs_3"
+          className="tab"
+          aria-label="Hands On VAT TRAINING"
+        />
+        <div className="tab-content bg-base-100 border-base-300 p-6">
+          <VATTrainingAccordion />
+        </div>
+
+        {/* Other Services */}
         <input
           type="radio"
           name="my_tabs_3"

@@ -9,12 +9,12 @@ export default function Hero() {
       
         <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md mt-96">
+          <div className="mt-96">
             <h1 className="mb-5 text-5xl font-bold md:text-6xl  drop-shadow-lg ">
               Bellal Hossen & Associates
             </h1>
             <p className="mb-5 text-xl md:text-2xl font-medium drop-shadow-md">
-              Income Tax, VAT & Company Law Consultants
+              VAT, Income Tax & Company Law Consultant
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>

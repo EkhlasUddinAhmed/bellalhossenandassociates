@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function ClientShowcase({ companies1, companies2 }) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-stone-100 px-6 py-16">
-      <h2 className="text-3xl font-bold text-center text-gray-800 mb-12 uppercase tracking-wide">
-        Our Trusted Clients
+      <h2 className="text-3xl font-bold text-center text-slate-800 mb-12 uppercase tracking-wide">
+        Our Trusted Clients & Service Career Companies
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">

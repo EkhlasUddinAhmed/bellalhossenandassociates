@@ -9,6 +9,8 @@ import Image from "next/image";
 export default function CompanyMarquee() {
   const companies = getComapanies();
   const companies2 = getComapanies2();
+
+  const mixedCompanies = [...companies, ...companies2];
   const marqueeRef = useRef(null);
 
   const pauseScroll = () => {
@@ -26,7 +28,7 @@ export default function CompanyMarquee() {
   return (
     <div className="mt-48">
       <SectionTitle
-        heading="OUR TRUSTED CLIENTS "
+        heading="Our Domestic Clients "
         subHeading="Helooo Ekhlas"
         textColor="text-red-400"
       />
@@ -39,7 +41,7 @@ export default function CompanyMarquee() {
           gradientWidth={100}
         >
           <div className="flex my-4 gap-6">
-            {companies.map((company) => (
+            {mixedCompanies.map((company) => (
               <div
                 key={company?.id}
                 // className="w-32 h-32 flex-shrink-0 rounded-lg overflow-hidden  border"
@@ -56,7 +58,31 @@ export default function CompanyMarquee() {
             ))}
           </div>
         </Marquee>
+        {/* Company Name Markeee Start Here */}
         <Marquee
+          pauseOnHover
+          speed="200"
+          gradient
+          gradientColor="white"
+          gradientWidth={100}
+          direction="right"
+        >
+          <div className="flex my-4 gap-6">
+            {mixedCompanies.map((company) => (
+              <div
+                key={company?.id}
+                // className="w-32 h-32 flex-shrink-0 rounded-lg overflow-hidden  border"
+              >
+                <span className="w-[150px]   mx-1  p-4 object-cover rounded-md ">
+                  {company.name}
+                </span>
+              </div>
+            ))}
+          </div>
+        </Marquee>
+        {/* Company Name Markeee End Here */}
+
+        {/* <Marquee
           direction="right"
           pauseOnHover
           speed="200"
@@ -74,7 +100,7 @@ export default function CompanyMarquee() {
               />
             ))}
           </div>
-        </Marquee>
+        </Marquee> */}
       </div>
     </div>
   );

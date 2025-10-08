@@ -1,4 +1,5 @@
 import CallUs from "./components/CallUs/CallUs";
+import ForeignClients from "./components/ForeignClients/ForeignClients";
 import Home from "./components/Home/Home";
 import CompanyMarquee from "./components/Markee/Markee";
 
@@ -19,6 +20,7 @@ export default function HomePage() {
       <VisionMissionStatement2 />
       <PracticeArea />
       <CompanyMarquee />
+      <ForeignClients />
       <TrainingService />
 
       <TeamMembers2 />

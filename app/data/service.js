@@ -208,24 +208,6 @@ const serviceData = [
     id: "5",
     serviceDetails: [
       {
-        id: "1",
-        eTitle: "Project Profile & Feasibility Study Report",
-        bTitle: "প্রকল্প প্রোফাইল প্রস্তুতি ও ফিজিবিলিটি স্টাডি রিপোর্ট",
-        eDescription:
-          "A project profile is a concise yet informative document that outlines the core aspects of a proposed business or industrial venture. It’s often used to pitch to banks, investors, or government agencies.Feasibility Study Report-This is a comprehensive analytical report that evaluates whether a project is viable and sustainable. It helps mitigate risks and supports informed decision-making",
-        bDescription:
-          "প্রকল্প প্রোফাইল হলো একটি সংক্ষিপ্ত অথচ তথ্যসমৃদ্ধ দলিল, যা একটি ব্যবসা বা শিল্প প্রকল্পের সারাংশ তুলে ধরে। এটি সাধারণত ব্যাংক, বিনিয়োগকারী বা সরকারি সংস্থার কাছে উপস্থাপন করা হয়। ফিজিবিলিটি স্টাডি রিপোর্ট-এটি একটি বিস্তারিত বিশ্লেষণমূলক রিপোর্ট যা প্রকল্পটি বাস্তবায়নযোগ্য কিনা তা নির্ধারণ করে। এটি বিনিয়োগ ঝুঁকি কমাতে এবং সিদ্ধান্ত গ্রহণে সহায়তা করে।",
-      },
-      {
-        id: "2",
-        eTitle: "Accountants, Internal Audit & Business Analysis",
-        bTitle: "হিসাবরক্ষক, অভ্যন্তরীণ নিরীক্ষা ও ব্যবসা বিশ্লেষণ",
-        eDescription:
-          "Accountants-Accountants record financial transactions, prepare reports, and assist with tax and audit compliance.Internal Audit-Internal audit ensures risk management, policy compliance, and asset protection within an organization.Business Analysis-Business analysts evaluate data and processes to support strategic decision-making.",
-        bDescription:
-          "হিসাবরক্ষক-হিসাবরক্ষকরা প্রতিষ্ঠানের আর্থিক লেনদেন রেকর্ড করেন, রিপোর্ট প্রস্তুত করেন এবং কর ও অডিট সংক্রান্ত প্রস্তুতিতে সহায়তা করেন।অভ্যন্তরীণ নিরীক্ষা-অভ্যন্তরীণ নিরীক্ষা হলো প্রতিষ্ঠানের ঝুঁকি ব্যবস্থাপনা, নীতিমালা অনুসরণ, এবং সম্পদের সুরক্ষা নিশ্চিত করার একটি প্রক্রিয়া।ব্যবসা বিশ্লেষণ-ব্যবসা বিশ্লেষকরা ডেটা ও প্রক্রিয়া বিশ্লেষণ করে সিদ্ধান্ত গ্রহণে সহায়তা করেন।",
-      },
-      {
         id: "3",
         eTitle: "Customs Bond License & Renewal",
         bTitle: "কাস্টমস বন্ড লাইসেন্স ও নবায়ন",
@@ -252,8 +234,55 @@ const serviceData = [
         bDescription:
           "ট্রেড লাইসেন্স,ট্যাক্সপেয়ার আইডেন্টিফিকেশন নাম্বার,কারখানা লাইসেন্স,পরিবেশ ছাড়পত্র,বিনিয়োগ বোর্ড সুপারিশ",
       },
+    ],
+    name: "Legal Compliance & Others",
+    description:
+      "Accountants-Accountants record financial transactions, prepare reports, and assist with tax and audit compliance.",
+    image: "",
+  },
+  {
+    id: "6",
+    serviceDetails: [
       {
-        id: "6",
+        id: "1",
+        eTitle: "Accountants",
+        bTitle: "হিসাবরক্ষক",
+        eDescription:
+          "Accountants-Accountants record financial transactions, prepare reports, and assist with tax and audit compliance.Internal Audit-Internal audit ensures risk management, policy compliance, and asset protection within an organization.Business Analysis-Business analysts evaluate data and processes to support strategic decision-making.",
+        bDescription:
+          "হিসাবরক্ষক-হিসাবরক্ষকরা প্রতিষ্ঠানের আর্থিক লেনদেন রেকর্ড করেন, রিপোর্ট প্রস্তুত করেন এবং কর ও অডিট সংক্রান্ত প্রস্তুতিতে সহায়তা করেন।অভ্যন্তরীণ নিরীক্ষা-অভ্যন্তরীণ নিরীক্ষা হলো প্রতিষ্ঠানের ঝুঁকি ব্যবস্থাপনা, নীতিমালা অনুসরণ, এবং সম্পদের সুরক্ষা নিশ্চিত করার একটি প্রক্রিয়া।ব্যবসা বিশ্লেষণ-ব্যবসা বিশ্লেষকরা ডেটা ও প্রক্রিয়া বিশ্লেষণ করে সিদ্ধান্ত গ্রহণে সহায়তা করেন।",
+      },
+    ],
+    name: "Accounting",
+    description:
+      "Accountants-Accountants record financial transactions, prepare reports, and assist with tax and audit compliance.",
+    image: "",
+  },
+
+  {
+    id: "7",
+    serviceDetails: [
+      {
+        id: "1",
+        eTitle: "Audit",
+        bTitle: "নিরীক্ষা",
+        eDescription:
+          "The process of verifying and analyzing the accuracy of a company's financial statements, accounts, or operations, typically conducted by an independent auditor or a certified accountant.",
+        bDescription:
+          "একটি প্রতিষ্ঠানের আর্থিক বিবরণী, হিসাবপত্র, বা কার্যক্রমের সত্যতা যাচাই ও বিশ্লেষণ করার প্রক্রিয়া, যা সাধারণত একজন স্বতন্ত্র নিরীক্ষক বা সনদপ্রাপ্ত হিসাবরক্ষক দ্বারা সম্পন্ন হয়।",
+      },
+    ],
+    name: "Audit",
+    description:
+      "The process of verifying and analyzing the accuracy of a company's financial statements, accounts, or operations.",
+    image: "",
+  },
+
+  {
+    id: "8",
+    serviceDetails: [
+      {
+        id: "1",
         eTitle: "Special Advisory Services for Sick & Developing Companies",
         bTitle: "রুগ্ন ও উন্নয়নশীল কোম্পানির বিশেষ পরামর্শ সেবা",
         eDescription:
@@ -261,6 +290,33 @@ const serviceData = [
         bDescription:
           "রুগ্ন কোম্পানি বলতে বোঝায় এমন প্রতিষ্ঠান যেগুলো আর্থিক ক্ষতি, উৎপাদন হ্রাস, ঋণ পরিশোধে অক্ষমতা বা বাজারে প্রতিযোগিতায় পিছিয়ে পড়েছে। উন্নয়নশীল কোম্পানি হলো এমন প্রতিষ্ঠান যারা নতুন, সম্প্রসারণশীল বা পুনর্গঠনের পর্যায়ে রয়েছে।",
       },
+    ],
+    name: "ManagementConsultancy",
+    description:
+      "Sick companies are those facing financial distress, declining productivity, debt burdens, or competitive disadvantages.",
+    image: "",
+  },
+  {
+    id: "9",
+    serviceDetails: [
+      {
+        id: "1",
+        eTitle: "Project Profile & Feasibility Study Report",
+        bTitle: "প্রকল্প প্রোফাইল প্রস্তুতি ও ফিজিবিলিটি স্টাডি রিপোর্ট",
+        eDescription:
+          "A project profile is a concise yet informative document that outlines the core aspects of a proposed business or industrial venture. It’s often used to pitch to banks, investors, or government agencies.Feasibility Study Report-This is a comprehensive analytical report that evaluates whether a project is viable and sustainable. It helps mitigate risks and supports informed decision-making",
+        bDescription:
+          "প্রকল্প প্রোফাইল হলো একটি সংক্ষিপ্ত অথচ তথ্যসমৃদ্ধ দলিল, যা একটি ব্যবসা বা শিল্প প্রকল্পের সারাংশ তুলে ধরে। এটি সাধারণত ব্যাংক, বিনিয়োগকারী বা সরকারি সংস্থার কাছে উপস্থাপন করা হয়। ফিজিবিলিটি স্টাডি রিপোর্ট-এটি একটি বিস্তারিত বিশ্লেষণমূলক রিপোর্ট যা প্রকল্পটি বাস্তবায়নযোগ্য কিনা তা নির্ধারণ করে। এটি বিনিয়োগ ঝুঁকি কমাতে এবং সিদ্ধান্ত গ্রহণে সহায়তা করে।",
+      },
+    ],
+    name: "Project Profile & Feasibility Study Report",
+    description:
+      "A project profile is a concise yet informative document that outlines the core aspects of a proposed business or industrial venture.",
+    image: "",
+  },
+  {
+    id: "10",
+    serviceDetails: [
       {
         id: "7",
         eTitle: "Hands-on VAT Training in Bangladesh",
@@ -271,9 +327,9 @@ const serviceData = [
           "হাতে-কলমে প্রশিক্ষণ বলতে বোঝায় এমন কোর্স যেখানে অংশগ্রহণকারীরা বাস্তব উদাহরণ, সফটওয়্যার ব্যবহার, রিটার্ন ফাইলিং, ইনভয়েস তৈরি, এবং VAT আইন প্রয়োগের অনুশীলন করে।",
       },
     ],
-    name: "Legal Compliance & Others",
+    name: "Hands-on VAT training",
     description:
-      "Accountants-Accountants record financial transactions, prepare reports, and assist with tax and audit compliance.",
+      "Hands-on VAT training involves practical sessions where participants learn to apply VAT laws.",
     image: "",
   },
 ];

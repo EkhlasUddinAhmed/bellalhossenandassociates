@@ -9,7 +9,7 @@ const PracticeArea = () => {
   return (
     <div className="my-30 mt-48   ">
       <SectionTitle
-        heading="Our Practice Area"
+        heading="Our Service Area"
         subHeading="In Our Firm"
         textColor=""
       />

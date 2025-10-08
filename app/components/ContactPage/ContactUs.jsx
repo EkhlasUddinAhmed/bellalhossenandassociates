@@ -100,7 +100,8 @@ const ContactUs = () => {
             {/* Mobile */}
             <div>
               <input
-                type="text"
+                type="number"
+                maxLength="11"
                 placeholder="Your Mobile Number"
                 {...register("mobile")}
                 className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -159,7 +160,8 @@ const ContactUs = () => {
               <strong>Email:</strong> bellalhossen1978@gmail.com
             </p>
             <p>
-              <strong>Location:</strong> Confidence Center, Shahjadpur, Gulshan
+              <strong>Location:</strong> Confidence Center, Suite-344(3rd Floor)
+              Shahjadpur, Gulshan,Dhaka-1212
             </p>
           </div>
         </div>
