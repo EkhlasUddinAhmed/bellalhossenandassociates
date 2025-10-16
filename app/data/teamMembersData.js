@@ -1,8 +1,7 @@
 import billalImage from "@/public/images/billal2.jpeg";
-import ayeshaImage from "@/public/images/MonirulIslam.jpeg";
-import raifulImage from "@/public/images/Raihan.png";
-import ekhlasImage from "@/public/images/Ekhlas.jpeg";
-
+import monirulIslam from "@/public/images/MonirulIslam.jpeg";
+import nahidHossainImage from "@/public/images/NahidHossain.jpeg";
+import saifulIslamImage from "@/public/images/SaifulIslam.jpeg";
 
 const teamMembers = [
   {
@@ -16,65 +15,22 @@ const teamMembers = [
     id: "2",
     name: "Mohammad Monirul Islam",
     role: "Senior Consultant (External)",
-    bio: "Crafts intuitive interfaces with SVG magic and responsive layouts.",
-    photo: ayeshaImage,
+    bio: "Excellent expertise in taxation, finance, audit, and corporate governance.",
+    photo: monirulIslam,
   },
   {
     id: "3",
     name: "Syed Nahid Hossain",
-    role: "Senior Consultant ",
-    bio: "Specialist in Express, REST APIs, and secure auth flows.",
-    photo: ekhlasImage,
+    role: "Senior Consultant",
+    bio: "Diversed experience in finance, accounts, procurement, internal & external Audit, corporate tax, individual tax, and VAT.",
+    photo: nahidHossainImage,
   },
   {
     id: "4",
-    name: "Md Abdullah Al Masud",
-    role: "DevOps & Deployment",
-    bio: "Ensures smooth CI/CD and scalable cloud infrastructure.",
-    photo: raifulImage,
-  },
-  {
-    id: "5",
-    name: "Md Yousuf Hossain",
-    role: "DevOps & Deployment",
-    bio: "Ensures smooth CI/CD and scalable cloud infrastructure.",
-    photo: raifulImage,
-  },
-  {
-    id: "6",
-    name: "Md Soheb",
-    role: "DevOps & Deployment",
-    bio: "Ensures smooth CI/CD and scalable cloud infrastructure.",
-    photo: raifulImage,
-  },
-  {
-    id: "7",
-    name: "FatemaTuz Zohora Runa",
-    role: "DevOps & Deployment",
-    bio: "Ensures smooth CI/CD and scalable cloud infrastructure.",
-    photo: raifulImage,
-  },
-  {
-    id: "8",
-    name: "Md Harun Ur Rashid",
-    role: "DevOps & Deployment",
-    bio: "Ensures smooth CI/CD and scalable cloud infrastructure.",
-    photo: raifulImage,
-  },
-  {
-    id: "9",
     name: "Saiful Islam Sakin",
     role: "DevOps & Deployment",
     bio: "Ensures smooth CI/CD and scalable cloud infrastructure.",
-    photo: raifulImage,
-  },
-
-  {
-    id: 10,
-    name: "Nazrul Islam Khan",
-    role: "DevOps & Deployment",
-    bio: "Ensures smooth CI/CD and scalable cloud infrastructure.",
-    photo: raifulImage,
+    photo: saifulIslamImage,
   },
 ];
 
@@ -94,9 +50,12 @@ const detailedTeamMembers = [
   {
     memberId: "1",
     name: "Bellal Hossen",
+    name2: "Bellal Hossen",
     officialRank: "Chief Executive Officer (CEO)",
+    officialRank2: "Chief Executive Officer (CEO)",
     description:
-      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
+      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of providing exceptional service to a diverge range of domestic and foreign companies.",
+    description2: "",
     email: "bellalhossen1978@gmail.com",
     mobile: "+880 1937896468, 1745309814",
     image: billalImage2,
@@ -108,7 +67,6 @@ const detailedTeamMembers = [
       "M.Com (Accounting) – Chittagong Commerce College, National University",
       "B.Com (Pass) – Chittagong City College, National University",
       "Income Tax Practitioner(ITP) Certified By NBR",
-      
     ],
     careerHighlights: [
       {
@@ -116,7 +74,7 @@ const detailedTeamMembers = [
         role: "General Manager (Finance & Accounts) ",
         period: "2017–2023",
       },
-      
+
       {
         organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
         role: "Manager (Finance & Accounts)",
@@ -137,318 +95,119 @@ const detailedTeamMembers = [
   {
     memberId: "2",
     name: "Monirul Islam",
+    name2: "Mohammad Monirul Islam",
     officialRank: "Senior Consultant (External)",
+    officialRank2: "Senior Consultant (External)",
     description:
-      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
-    email: "bellalhossen1978@gmail.com",
-    mobile: "+880 1937896468, 1745309814",
-    image: billalImage2,
-    qualifications: ["ACA, ", "CMA(AUS)", "M.Com", "ITP"],
+      "Mr. Mohammad Monirul Islam is a Chartered Accountant (ICAB) and Certified Management Accountant (Australia) with over 18 years of experience in taxation, finance, audit, Company Incorporation & Regulatory Compliance. ",
+    description2:
+      "As Senior Consultant at Bellal Hossen & Associates, he leads consultancy operations—advising clients on financial structuring, compliance, and performance improvement. His career reflects a blend of corporate leadership, financial acumen, and a strong commitment to ethical business practice.",
+    email: "mmislam10246@gmail.com",
+    mobile: "+880 1817-032992 , 1937896468",
+    image: monirulIslam,
+    qualifications: [
+      "Associate Member - Institute of Chartered Accountants of Bangladesh (ICAB)",
+      "Associate Member - Institute of Certified Management Accountants (Australia)",
+      "Certified Income Tax Practitioner (ITP) – National Board of Revenue",
+    ],
     careerHighlights: [
       {
-        organization: "Bags and Packs Int.Ltd",
-        role: "Chief Financial Oficer (CFO)",
-        period: "2020 – Present",
+        organization: "BRAC University",
+        role: "Joint Director (Central Accounts)",
+        period: "2024 - till date",
       },
       {
-        organization: "Olila Glass Int.Ltd",
-        role: "Assistant General manager(AGM) Finance and Accounts(F&A)",
-        period: "2016 – 2020",
+        organization: "DBL Group",
+        role: "Senior Manager (Accounts & Tax)",
+        period: "2022 - 2024",
       },
       {
-        organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
-        role: "Manager, Finance and Accounts(F&A)",
-        period: "2014 – 2016",
+        organization: "American International School Dhaka (AISD)",
+        role: "Senior Finance Manager ",
+        period: "2020 - 2022",
       },
       {
-        organization: "DBL Group,Kai-Altech Group,RTV,BTI",
-        role: "Provide Expertise in Finance Department",
-        period: "2014 – 2016",
+        organization: "American International School Dhaka (AISD)",
+        role: "Finance Manager",
+        period: "2018 - 2020",
+      },
+      {
+        organization: "ASA International Inc",
+        role: "Group Accounts Officer ",
+        period: "2013 - 2018",
+      },
+      {
+        organization: "ASA – NGO",
+        role: "Group Accounts Officer",
+        period: "2008 - 2013",
+      },
+      {
+        organization: "DBL Group",
+        role: "Internal Auditor",
+        period: "2005 - 2008",
       },
     ],
   },
   {
     memberId: "3",
-    name: "Bellal Hossen",
-    officialRank: "Chief Executive Officer (CEO)",
+    name: "Nahid Hossain",
+    name2: "Syed Nahid Hossain",
+    officialRank: "Senior Consultant",
+    officialRank2:
+      "Senior Consultant (Finance, Accounts, Procurement, Income Tax & VAT)",
     description:
-      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
-    email: "bellalhossen1978@gmail.com",
-    mobile: "+880 1937896468, 1745309814",
-    image: billalImage2,
+      "Mr. Syed Nahid Hossain is an accomplished finance and taxation professional with over 19 years of diverse experience across the fields of Finance, Accounts, Procurement, Internal & External Audit, Corporate Tax, Individual Tax, and VAT.",
+    description2: "",
+    email: "snhossain07@gmail.com",
+    mobile: "+880 1716-226183 , 01957-349326",
+    image: nahidHossainImage,
     qualifications: [
-      "Member,Certified Management Accountant(CMA),AUS",
-      "M.Com in Accounting",
-      "CA Partly Qualified ",
-      "Income Tax Practitioner(ITP) Certified By NBR",
-      "Member, Dhaka Taxes Bar Assiciation",
+      "Certified Management Accountant (CMA) – Institute of Certified Management Accountants of Australia",
+      "Partly Qualified Chartered Accountant (CA-Inter) – Institute of Chartered Accountants of Bangladesh (ICAB)",
+      "Completed Articleship – Mijan Rahman Bhuiyan & Co., Chartered Accountants (ICAB)",
+      "Income Tax Practitioner (ITP) – National Board of Revenue (NBR)",
+      "Member – Dhaka Taxes Bar Association (Membership No. S02479)",
     ],
     careerHighlights: [
       {
-        organization: "Bags and Packs Int.Ltd",
-        role: "Chief Financial Oficer (CFO)",
-        period: "2020 – Present",
+        organization: "SEIP–BACCO Project (Ministry of Finance & ADB)",
+        role: "Coordinator (Finance & Procurement) ",
+        period: "",
       },
       {
-        organization: "Olila Glass Int.Ltd",
-        role: "Assistant General manager(AGM) Finance and Accounts(F&A)",
-        period: "2016 – 2020",
+        organization: "Star Line Group",
+        role: "Manager (Finance & Accounts)",
+        period: "",
       },
       {
-        organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
-        role: "Manager, Finance and Accounts(F&A)",
-        period: "2014 – 2016",
+        organization: "Buildcom & Uncommon",
+        role: "Deputy General Manager (Accounts) ",
+        period: "",
       },
       {
-        organization: "DBL Group,Kai-Altech Group,RTV,BTI",
-        role: "Provide Expertise in Finance Department",
-        period: "2014 – 2016",
+        organization:
+          "Bangladesh Knitwear Manufacturers & Exporters Association (BKMEA)",
+        role: "Chief Accounts Officer ",
+        period: "",
+      },
+      {
+        organization: "Transcom Beverage Ltd. (Pepsi)",
+        role: "Accounts Officer",
+        period: "",
       },
     ],
   },
   {
     memberId: "4",
-    name: "Bellal Hossen",
+    name: "Saiful Islam ",
+    name2: "Saiful Islam Sakin",
     officialRank: "Chief Executive Officer (CEO)",
+    officialRank2: "Chief Executive Officer (CEO)",
     description:
       "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
     email: "bellalhossen1978@gmail.com",
     mobile: "+880 1937896468, 1745309814",
-    image: billalImage2,
-    qualifications: [
-      "Member,Certified Management Accountant(CMA),AUS",
-      "M.Com in Accounting",
-      "CA Partly Qualified ",
-      "Income Tax Practitioner(ITP) Certified By NBR",
-      "Member, Dhaka Taxes Bar Assiciation",
-    ],
-    careerHighlights: [
-      {
-        organization: "Bags and Packs Int.Ltd",
-        role: "Chief Financial Oficer (CFO)",
-        period: "2020 – Present",
-      },
-      {
-        organization: "Olila Glass Int.Ltd",
-        role: "Assistant General manager(AGM) Finance and Accounts(F&A)",
-        period: "2016 – 2020",
-      },
-      {
-        organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
-        role: "Manager, Finance and Accounts(F&A)",
-        period: "2014 – 2016",
-      },
-      {
-        organization: "DBL Group,Kai-Altech Group,RTV,BTI",
-        role: "Provide Expertise in Finance Department",
-        period: "2014 – 2016",
-      },
-    ],
-  },
-  {
-    memberId: "5",
-    name: "Bellal Hossen",
-    officialRank: "Chief Executive Officer (CEO)",
-    description:
-      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
-    email: "bellalhossen1978@gmail.com",
-    mobile: "+880 1937896468, 1745309814",
-    image: billalImage2,
-    qualifications: [
-      "Member,Certified Management Accountant(CMA),AUS",
-      "M.Com in Accounting",
-      "CA Partly Qualified ",
-      "Income Tax Practitioner(ITP) Certified By NBR",
-      "Member, Dhaka Taxes Bar Assiciation",
-    ],
-    careerHighlights: [
-      {
-        organization: "Bags and Packs Int.Ltd",
-        role: "Chief Financial Oficer (CFO)",
-        period: "2020 – Present",
-      },
-      {
-        organization: "Olila Glass Int.Ltd",
-        role: "Assistant General manager(AGM) Finance and Accounts(F&A)",
-        period: "2016 – 2020",
-      },
-      {
-        organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
-        role: "Manager, Finance and Accounts(F&A)",
-        period: "2014 – 2016",
-      },
-      {
-        organization: "DBL Group,Kai-Altech Group,RTV,BTI",
-        role: "Provide Expertise in Finance Department",
-        period: "2014 – 2016",
-      },
-    ],
-  },
-  {
-    memberId: "6",
-    name: "Bellal Hossen",
-    officialRank: "Chief Executive Officer (CEO)",
-    description:
-      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
-    email: "bellalhossen1978@gmail.com",
-    mobile: "+880 1937896468, 1745309814",
-    image: billalImage2,
-    qualifications: [
-      "Member,Certified Management Accountant(CMA),AUS",
-      "M.Com in Accounting",
-      "CA Partly Qualified ",
-      "Income Tax Practitioner(ITP) Certified By NBR",
-      "Member, Dhaka Taxes Bar Assiciation",
-    ],
-    careerHighlights: [
-      {
-        organization: "Bags and Packs Int.Ltd",
-        role: "Chief Financial Oficer (CFO)",
-        period: "2020 – Present",
-      },
-      {
-        organization: "Olila Glass Int.Ltd",
-        role: "Assistant General manager(AGM) Finance and Accounts(F&A)",
-        period: "2016 – 2020",
-      },
-      {
-        organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
-        role: "Manager, Finance and Accounts(F&A)",
-        period: "2014 – 2016",
-      },
-      {
-        organization: "DBL Group,Kai-Altech Group,RTV,BTI",
-        role: "Provide Expertise in Finance Department",
-        period: "2014 – 2016",
-      },
-    ],
-  },
-  {
-    memberId: "7",
-    name: "Bellal Hossen",
-    officialRank: "Chief Executive Officer (CEO)",
-    description:
-      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
-    email: "bellalhossen1978@gmail.com",
-    mobile: "+880 1937896468, 1745309814",
-    image: billalImage2,
-    qualifications: [
-      "Member,Certified Management Accountant(CMA),AUS",
-      "M.Com in Accounting",
-      "CA Partly Qualified ",
-      "Income Tax Practitioner(ITP) Certified By NBR",
-      "Member, Dhaka Taxes Bar Assiciation",
-    ],
-    careerHighlights: [
-      {
-        organization: "Bags and Packs Int.Ltd",
-        role: "Chief Financial Oficer (CFO)",
-        period: "2020 – Present",
-      },
-      {
-        organization: "Olila Glass Int.Ltd",
-        role: "Assistant General manager(AGM) Finance and Accounts(F&A)",
-        period: "2016 – 2020",
-      },
-      {
-        organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
-        role: "Manager, Finance and Accounts(F&A)",
-        period: "2014 – 2016",
-      },
-      {
-        organization: "DBL Group,Kai-Altech Group,RTV,BTI",
-        role: "Provide Expertise in Finance Department",
-        period: "2014 – 2016",
-      },
-    ],
-  },
-  {
-    memberId: "8",
-    name: "Bellal Hossen",
-    officialRank: "Chief Executive Officer (CEO)",
-    description:
-      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
-    email: "bellalhossen1978@gmail.com",
-    mobile: "+880 1937896468, 1745309814",
-    image: billalImage2,
-    qualifications: [
-      "Member,Certified Management Accountant(CMA),AUS",
-      "M.Com in Accounting",
-      "CA Partly Qualified ",
-      "Income Tax Practitioner(ITP) Certified By NBR",
-      "Member, Dhaka Taxes Bar Assiciation",
-    ],
-    careerHighlights: [
-      {
-        organization: "Bags and Packs Int.Ltd",
-        role: "Chief Financial Oficer (CFO)",
-        period: "2020 – Present",
-      },
-      {
-        organization: "Olila Glass Int.Ltd",
-        role: "Assistant General manager(AGM) Finance and Accounts(F&A)",
-        period: "2016 – 2020",
-      },
-      {
-        organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
-        role: "Manager, Finance and Accounts(F&A)",
-        period: "2014 – 2016",
-      },
-      {
-        organization: "DBL Group,Kai-Altech Group,RTV,BTI",
-        role: "Provide Expertise in Finance Department",
-        period: "2014 – 2016",
-      },
-    ],
-  },
-  {
-    memberId: "9",
-    name: "Bellal Hossen",
-    officialRank: "Chief Executive Officer (CEO)",
-    description:
-      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
-    email: "bellalhossen1978@gmail.com",
-    mobile: "+880 1937896468, 1745309814",
-    image: billalImage2,
-    qualifications: [
-      "Member,Certified Management Accountant(CMA),AUS",
-      "M.Com in Accounting",
-      "CA Partly Qualified ",
-      "Income Tax Practitioner(ITP) Certified By NBR",
-      "Member, Dhaka Taxes Bar Assiciation",
-    ],
-    careerHighlights: [
-      {
-        organization: "Bags and Packs Int.Ltd",
-        role: "Chief Financial Oficer (CFO)",
-        period: "2020 – Present",
-      },
-      {
-        organization: "Olila Glass Int.Ltd",
-        role: "Assistant General manager(AGM) Finance and Accounts(F&A)",
-        period: "2016 – 2020",
-      },
-      {
-        organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
-        role: "Manager, Finance and Accounts(F&A)",
-        period: "2014 – 2016",
-      },
-      {
-        organization: "DBL Group,Kai-Altech Group,RTV,BTI",
-        role: "Provide Expertise in Finance Department",
-        period: "2014 – 2016",
-      },
-    ],
-  },
-  {
-    memberId: "10",
-    name: "Bellal Hossen",
-    officialRank: "Chief Executive Officer (CEO)",
-    description:
-      "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit. He  has a proven track record of provoding exceptional service to a diverge range of domestic and foreign companies.",
-    email: "bellalhossen1978@gmail.com",
-    mobile: "+880 1937896468, 1745309814",
-    image: billalImage2,
+    image: saifulIslamImage,
     qualifications: [
       "Member,Certified Management Accountant(CMA),AUS",
       "M.Com in Accounting",

@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning data-qb-installed>
       <body
-        data-new-gr-c-s-check-loaded="14.1256.0"
+        data-new-gr-c-s-check-loaded="14.1257.0"
         data-gr-ext-installed=""
         className={`bg-gray-50 text-gray-800 antialiased mx-auto max-w-[1280px]   `}
       >

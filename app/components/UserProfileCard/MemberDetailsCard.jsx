@@ -18,13 +18,16 @@ const MemberDetailsCard = ({ user }) => {
           </div>
         </div>
         <h1 className="text-4xl font-bold uppercase tracking-wide">
-          {user.name}
+          {user.name2}
         </h1>
         <p className="text-lg text-teal-600 font-medium mt-1">
-          {user.officialRank}
+          {user.officialRank2}
         </p>
         <p className="max-w-xl mt-4 text-gray-600 text-sm">
           {user.description}
+        </p>
+        <p className="max-w-xl mt-4 text-gray-600 text-sm">
+          {user.description2}
         </p>
       </div>
 
