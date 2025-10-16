@@ -1,14 +1,15 @@
 import billalImage from "@/public/images/billal2.jpeg";
-import ayeshaImage from "@/public/images/Ayesha.jpeg";
+import ayeshaImage from "@/public/images/MonirulIslam.jpeg";
 import raifulImage from "@/public/images/Raihan.png";
 import ekhlasImage from "@/public/images/Ekhlas.jpeg";
+
 
 const teamMembers = [
   {
     id: "1",
     name: "Billal Hossain",
     role: "CEO & Lead Consultant ",
-    bio: "Expert in Next.js, React, and LegalTech integrations.",
+    bio: "A distinguished expert in Income Tax, VAT, Accounting,Finance and Internal Audit.",
     photo: billalImage,
   },
   {
@@ -100,32 +101,36 @@ const detailedTeamMembers = [
     mobile: "+880 1937896468, 1745309814",
     image: billalImage2,
     qualifications: [
-      "Member,Certified Management Accountant(CMA),AUS",
-      "M.Com in Accounting",
-      "CA Partly Qualified ",
-      "Income Tax Practitioner(ITP) Certified By NBR",
+      "CMA (Australia) – The Institute of Certified Management Accountants, Australia",
+      "CA (Knowledge Level) – The Institute of Chartered Accountants of Bangladesh",
+      "Income Tax Practitioner (ITP) – National Board of Revenue (NBR), Bangladesh",
       "Member, Dhaka Taxes Bar Assiciation",
+      "M.Com (Accounting) – Chittagong Commerce College, National University",
+      "B.Com (Pass) – Chittagong City College, National University",
+      "Income Tax Practitioner(ITP) Certified By NBR",
+      
     ],
     careerHighlights: [
       {
         organization: "Bags and Packs Int.Ltd",
-        role: "Chief Financial Oficer (CFO)",
-        period: "2020 – Present",
+        role: "General Manager (Finance & Accounts) ",
+        period: "2017–2023",
       },
-      {
-        organization: "Olila Glass Int.Ltd",
-        role: "Assistant General manager(AGM) Finance and Accounts(F&A)",
-        period: "2016 – 2020",
-      },
+      
       {
         organization: "Bashundhara Industrial Complex (Bashundhara Cement)",
-        role: "Manager, Finance and Accounts(F&A)",
-        period: "2014 – 2016",
+        role: "Manager (Finance & Accounts)",
+        period: "2012–2017",
       },
       {
-        organization: "DBL Group,Kai-Altech Group,RTV,BTI",
-        role: "Provide Expertise in Finance Department",
-        period: "2014 – 2016",
+        organization: "Building Technology & Ideas Ltd",
+        role: "Sr. Executive (Accounts) ",
+        period: "2006–2012",
+      },
+      {
+        organization: "DBL Group Ltd",
+        role: "Executive (Internal Audit) ",
+        period: "2004–2006",
       },
     ],
   },

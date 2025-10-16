@@ -16,7 +16,7 @@ const MemberCard = ({ member }) => {
       <div className="card-body items-center text-center">
         <h2 className="card-title">{member?.name}</h2>
         <p className="text-blue-800 my-2">{member?.role}</p>
-        <p className="text-blue-800 my-2">{member?.bio}</p>
+        <p className="text-blue-800 mb-2">{member?.bio}</p>
         <div className="card-actions">
           <MemberDetailsButton id={member.id}/>
 

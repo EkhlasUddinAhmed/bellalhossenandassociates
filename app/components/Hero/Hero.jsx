@@ -1,5 +1,5 @@
 import Image from "next/image";
-import backImage from "@/public/images/1.jpg";
+// import backImage from "@/public/images/1.jpg";
 import VisionMissionStatement2 from "../VisionMissionSection/MissionVissionStatement2";
 // components/Hero.tsx
 export default function Hero() {
